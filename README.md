@@ -30,6 +30,8 @@ The sentiment analysis module used, provides 4 components for each of the senten
 <br/>
 To tag a sentiment to the article based on the above scores, the rule followed is Anything below a compound score of -0.05 we tag as negative and anything above compound score of 0.05 we tag as positive.
 
+![alt text](https://github.com/pia-nyk/ISI-Summer-2022-Programming-Challenge/blob/master/output/Percent%20of%20Sentiments.png?raw=true)
+
 <br/><br/>
 <b> Additions </b><br/>
 The script also has the ability to analyze any number of articles (upto 14 as there are 14 pre-loaded articles on the AlJazeera home page for a country) for any of the countries, from the AlJazeera website.
