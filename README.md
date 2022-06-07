@@ -43,11 +43,18 @@ Clone the repo
 ```console
 $ git clone https://github.com/pia-nyk/ISI-Summer-2022-Programming-Challenge.git
 ```
-
+```console
+$ cd ISI-Summer-2022-Programming-Challenge
+```
+Install all required dependencies
+```console
+$ pip3 install -r requirements.txt
+```
 Go to the src folder in the cloned repo
-
+```console
+$ cd src
+```
 Call the script with country name & number of articles required
-
 ```console 
 $ python3 plot.py mozambique 10
 ```
