@@ -2,12 +2,11 @@
 
 <b> Description </b><br/>
 This is the solution repository for ISI's Summer 2022 Programming Challenge.
-
-
-Collection of latest articles from <a> https://www.aljazeera.com/where/mozambique/ </a> has been accomplished using <b>BeautifulSoup</b> library in Python3. The collected articles have been saved in json format & a sample of which can be found in /output/news.json
 <br/>
 
 <b> Scraping & JSON file creation </b><br/>
+Collection of latest articles from <a> https://www.aljazeera.com/where/mozambique/ </a> has been accomplished using <b>BeautifulSoup</b> library in Python3. The collected articles have been saved in json format & a sample of which can be found in /output/news.json
+<br/>
 The json file contains an array of articles, each consisting of the following key value pairs:
 <ul>
   <li> <b>title</b>: title of the news article </li>
@@ -30,6 +29,29 @@ The sentiment analysis module used, provides 4 components for each of the senten
 
 <br/>
 To tag a sentiment to the article based on the above scores, the rule followed is Anything below a compound score of -0.05 we tag as negative and anything above compound score of 0.05 we tag as positive.
+
+<br/><br/>
+<b> Additions </b><br/>
+The script also has the ability to analyze any number of articles (upto 14 as there are 14 pre-loaded articles on the AlJazeera home page for a country) for any of the countries, from the AlJazeera website.
+
+<br/><br/>
+<b> Steps to reproduce </b><br/>
+Clone the repo
+
+```console
+$ git clone https://github.com/pia-nyk/ISI-Summer-2022-Programming-Challenge.git
+```
+
+Go to the src folder in the cloned repo
+
+Call the script with country name & number of articles required
+
+```console 
+$ python3 plot.py mozambique 10
+```
+
+<b>Plotly</b> chart will open on a new webpage in your browser.
+
 
 
 
